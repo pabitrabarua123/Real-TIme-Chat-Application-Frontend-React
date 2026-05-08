@@ -4,22 +4,68 @@ A modern real-time chat application frontend built with React, TypeScript, and S
 
 ---
 
-## 🚀 Features
+## Core Features
 
-- ⚛️ Built with React + TypeScript
-- 💬 Real-time messaging using Socket.IO
-- 🔐 Authentication (Login/Register UI)
-- 👥 One-to-one chat interface
-- 🟢 Online/offline user status
-- 📱 Responsive design
-- ⚡ Fast development with Vite
+- Built with React + TypeScript
+- Real-time messaging using Socket.IO
+- Authentication (Login/Register UI)
+- One-to-one chat interface
+- Online/offline user status
+- Fast development with Vite
+
+## Project Structure
+
+```
+client/
+├── index.html
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+├── public/
+│   └── vite.svg
+├── src/
+│   ├── App.css
+│   ├── index.css
+│   ├── main.tsx
+│   ├── vite-env.d.ts
+│   ├── assets/
+│   │   └── react.svg
+│   ├── components/
+│   │   └── Signout.tsx
+│   ├── context/
+│   │   └── AuthContext.tsx
+│   ├── pages/
+│   │   ├── Admin.tsx
+│   │   ├── Chat.tsx
+│   │   ├── ChatDesign.tsx
+│   │   ├── Home.tsx
+│   │   ├── Signin.tsx
+│   │   ├── Signup.tsx
+│   │   └── socket.ts
+│   └── router/
+│       ├── Layout.tsx
+│       └── router.tsx
+```
 
 ---
 
-## 🛠️ Tech Stack
+## 🏁 Getting Started
 
-- React (with TypeScript)
-- Vite
-- Axios
-- Socket.IO Client
-- React Router DOM
+Follow these steps to run the project locally:
+
+1. **Install dependencies:**
+	```bash
+	npm install
+	```
+
+2. **Start the development server:**
+	```bash
+	npm run dev
+	```
+
+3. **Open your browser:**
+	Visit [http://localhost:5173](http://localhost:5173) to view the app.
+
+---
+
+> **Note:** Make sure the backend server is running and accessible for authentication and chat features to work properly.
