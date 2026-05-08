@@ -49,7 +49,7 @@ client/
 
 ---
 
-## 🏁 Getting Started
+## Getting Started
 
 Follow these steps to run the project locally:
 
@@ -68,4 +68,5 @@ Follow these steps to run the project locally:
 
 ---
 
-> **Note:** Make sure the backend server is running and accessible for authentication and chat features to work properly.
+> **Note:** Make sure the backend server you need to setup, clone and start with this repo
+[https://github.com/pabitrabarua123/Real-Time-Chat-Application-Backend-Node](https://github.com/pabitrabarua123/Real-Time-Chat-Application-Backend-Node)
