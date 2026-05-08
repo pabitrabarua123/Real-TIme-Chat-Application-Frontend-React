@@ -1,4 +1,4 @@
-# 💬 Chat App - Frontend
+# 💬 Real-Time Chat App - Frontend
 
 A modern real-time chat application frontend built with React, TypeScript, and Socket.IO client.
 
