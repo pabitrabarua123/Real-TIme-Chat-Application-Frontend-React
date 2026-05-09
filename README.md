@@ -1,6 +1,6 @@
 # 💬 Real-Time Chat App - Frontend
 
-A modern real-time chat application frontend built with React, TypeScript, and Socket.IO client.
+A simple real-time chat application frontend built with React, TypeScript, and Socket.IO client.
 
 ---
 
@@ -8,7 +8,7 @@ A modern real-time chat application frontend built with React, TypeScript, and S
 
 - Built with React + TypeScript
 - Real-time messaging using Socket.IO
-- Authentication (Login/Register UI)
+- Authentication (Login/Register/JWT)
 - One-to-one chat interface
 - Online/offline user status
 - Fast development with Vite
